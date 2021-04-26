@@ -2,9 +2,22 @@
 * {
     box-sizing: border-box;
 }
+
+header {
+    background-color: #333333;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
 .container {
     width: 1020px;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     display: grid;
     grid-template-columns: repeat(3, 250px);
     grid-gap: 20px;
@@ -30,18 +43,28 @@
 }
 
 .red {
-    border: red solid 4px;
+    border: red solid 6px;
 }
 
 .yellow {
-    border: yellow solid 4px;
+    border: yellow solid 6px;
 }
 .blue {
-    border: blue solid 4px;
+    border: #069fe3 solid 6px;
 }
 .green {
-    border: green solid 4px;
+    border: green solid 6px;
 }
 .beige {
-    border: beige solid 4px;
+    border: #f8c5b0 solid 6px;
+}
+
+b {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
 }

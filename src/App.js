@@ -1,12 +1,13 @@
 import "./App.css";
 import Job from "./Job";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function App() {
     return (
         <div>
-            {/* <header>
-                <h1></h1>
-            </header> */}
+            <Header title="The Job Board" />
+
             <div className="container">
                 <Job
                     className="red"
@@ -72,7 +73,7 @@ function App() {
                     city="Pantin"
                 />
             </div>
-            {/* <footer></footer> */}
+            <Footer name="Floriane" />
         </div>
     );
 }
