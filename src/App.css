@@ -1,0 +1,47 @@
+/* Other rules */
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1020px;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-gap: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+}
+.job {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.jobFooter {
+    font-size: 12px;
+}
+
+.red {
+    border: red solid 4px;
+}
+
+.yellow {
+    border: yellow solid 4px;
+}
+.blue {
+    border: blue solid 4px;
+}
+.green {
+    border: green solid 4px;
+}
+.beige {
+    border: beige solid 4px;
+}
